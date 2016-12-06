@@ -1,0 +1,59 @@
+.header-tab {
+    width: 100%;
+    height: 15%;
+    /*min-height: 15%;*/
+    /*display: block;*/
+}
+
+.cf::before, .cf::after {
+    content: "";
+    display: table;
+}
+
+a{
+    text-decoration: none;
+}
+
+.cf::after {
+    clear: both;
+}
+
+.cf {
+    zoom: 1;
+}
+
+.tab-title {
+    margin: 10px auto;
+    font-weight: bold;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+footer {
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    font-weight: bold;
+}
+
+.main-menu {
+    width: 100%;
+    display: table;
+}
+
+.main-menu-item {
+    width: 25%;
+    display: table-cell;
+    text-align: center;
+    /*float: left;*/
+}
+
+.container{
+    margin: 1%;
+    padding: 1%;
+    width: auto;
+}
