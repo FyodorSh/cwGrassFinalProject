@@ -1,9 +1,9 @@
-/**
- * Created by f.shevchenko on 06.12.2016.
- */
-function initPage(){
-
+window.onload = function() {
+    // add page header title
     var pageTitle = $(document).attr("title");
-
     $("header").append("<div class='tab-title'>" + pageTitle + "</div>");
+
+    // change map size
+    var divMap = document.getElementById('map');
+    divMap.style.position = "static";
 }

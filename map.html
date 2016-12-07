@@ -9,10 +9,12 @@
     <link rel="stylesheet" href="common/css/colors.css">
 
 </head>
-<body onload="initPage()" class="bg-color-butter">
+<body class="bg-color-butter">
 <header class="cf header-tab bg-color-black font-color-butter">
 </header>
-<main></main>
+<main class="cf">
+    <div id="map"></div>
+</main>
 <footer class="cf footer-tab bg-color-azure font-color-light-yellow">
     <nav>
         <ul class="main-menu">
@@ -45,6 +47,9 @@
 </footer>
 
 <script src="js/main.js"></script>
+<script src="js/map.js"></script>
 <script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBbMtPBIyM5P-G-3TWX0new9EZLH7nXwe8&callback=initMap"></script>
 </body>
 </html>
