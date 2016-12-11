@@ -3,7 +3,7 @@ window.onload = function() {
     var pageTitle = $(document).attr("title");
     $("header").append("<div class='tab-title'>" + pageTitle + "</div>");
 
-    // change map size
-    var divMap = document.getElementById('map');
-    divMap.style.position = "static";
-}
+    // // change map size
+    // var divMap = document.getElementById('map');
+    // divMap.style.position = "static";
+};
